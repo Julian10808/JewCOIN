@@ -1,0 +1,11 @@
+.root {
+  @apply w-full flex bg-[#0B0718] items-center justify-center flex-wrap;
+
+  .leftWrapper {
+    @apply flex  lg:w-[50%] items-center justify-center py-[72px] px-[50px] sm:px-[70px] lg:pl-[0px] lg:pr-[50px]  2xl:px-[100px] relative;
+  }
+
+  .rightWrapper {
+    @apply w-full lg:w-[50%] 2xl:w-[35%] flex flex-col items-start px-[20px] xl:px-[25px] lg:px-[40px] sm:px-[74px] py-[30px] sm:py-[56px];
+  }
+}

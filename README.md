@@ -1,2 +1,1 @@
-# JewCOIN
-staking project
+# JewCoin_LandingPage
