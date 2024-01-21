@@ -1,0 +1,2 @@
+# JewCOIN
+staking project
