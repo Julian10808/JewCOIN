@@ -8,7 +8,7 @@ const Footer = () => {
         </div>
         <img
           src="/assets/images/twitterIcon.jpg"
-          className="w-[250px] h-[300px]"
+          className="w-full h-full sm:w-[70%] md:w-[60%] lg:w-[300px] lg:h-[300px]"
           alt="twitter"
         />
         <div className="text-[24px] sm:text-[28px]font-bold">
@@ -21,7 +21,7 @@ const Footer = () => {
         </div>
         <img
           src="/assets/images/telIcon.png"
-          className="w-[250px] h-[300px]"
+          className="w-full sm:w-[70%] md:w-[60%] lg:w-[250px] h-full lg:h-[300px]"
           alt="Telegram"
         />
         <div className="text-[24px] sm:text-[28px]font-bold">
@@ -34,7 +34,7 @@ const Footer = () => {
         </div>
         <img
           src="/assets/images/mailIcon.png"
-          className="w-[300px] h-[300px] p-[50px]"
+          className="w-[300px] h-[300px] p-[30px]"
           alt="Email"
         />
 
