@@ -14,6 +14,7 @@ import { configureChains, createConfig, WagmiConfig } from "wagmi";
 import { mainnet } from "wagmi/chains";
 import { alchemyProvider } from "wagmi/providers/alchemy";
 import { publicProvider } from "wagmi/providers/public";
+// import { PhantomConnector } from "phantom-wagmi-connector";
 import { jsonRpcProvider } from "wagmi/providers/jsonRpc";
 import "@rainbow-me/rainbowkit/styles.css";
 
@@ -41,6 +42,7 @@ const wagmiConfig = createConfig({
   autoConnect: true,
   connectors,
   publicClient,
+  // connectors: [new PhantomConnector({ chains })],
 });
 
 // const root = ReactDOM.createRoot(document.getElementById("root"));

@@ -15,6 +15,7 @@ const Header = () => {
     { label: "Roadmap" },
     { label: "Tokenomics" },
     { label: "Disclaimer" },
+    { label: "Contact" },
   ];
   const [language, setLanguage] = useState("en");
   const [index, setIndex] = useState(0);
@@ -83,6 +84,14 @@ const Header = () => {
       }
     } else if (label === "Disclaimer") {
       const element = document.getElementById("disclaimer_panel");
+      if (element) {
+        window.scrollTo({
+          top: element.offsetTop,
+          behavior: "smooth",
+        });
+      }
+    } else if (label === "Contact") {
+      const element = document.getElementById("contact_panel");
       if (element) {
         window.scrollTo({
           top: element.offsetTop,
