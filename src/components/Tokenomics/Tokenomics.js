@@ -41,27 +41,27 @@ const Tokenomics = () => {
           coming for every 1 million saved.
           <p>
             <br />
-            Jewcoin starting price: .5 USDC, .5 USDT or corresponding amount in
-            ETH.
+            Jewcoin starting price: .15 USDC, .15 USDT or corresponding amount
+            in ETH.
             <br />
             <br />
-            Jewcoin price after 1 million tokens rescued: 1 USDC, 1 USDT, or the
-            corresponding amount in ETH.
-            <br />
-            <br />
-            Jewcoin price after 2 million tokens rescued: 1.5 USDC, 1.5 USDT, or
+            Jewcoin price after 1 million tokens rescued: .2 USDC, .2 USDT, or
             the corresponding amount in ETH.
             <br />
             <br />
-            Jewcoin price after 3 million tokens rescued: 2 USDC, 2 USDT, or the
-            corresponding amount in ETH.
+            Jewcoin price after 2 million tokens rescued: .25 USDC, .25 USDT, or
+            the corresponding amount in ETH.
             <br />
-            <br /> Jewcoin price after 4 million tokens rescued: 2.5 USDC, 2.5
+            <br />
+            Jewcoin price after 3 million tokens rescued: .3 USDC, .3 USDT, or
+            the corresponding amount in ETH.
+            <br />
+            <br /> Jewcoin price after 4 million tokens rescued: .35 USDC, .35
             USDT, or the corresponding amount in ETH.
             <br />
             <br />
-            Jewcoin price after 5 million tokens rescued: 3 USDC, 3 USDT, or the
-            corresponding amount in ETH.
+            Jewcoin price after 5 million tokens rescued: .4 USDC, .4 USDT, or
+            the corresponding amount in ETH.
           </p>
           <br />
           After three months, all Jewcoins will have been rescued or burned.

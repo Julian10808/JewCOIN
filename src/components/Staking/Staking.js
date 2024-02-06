@@ -107,7 +107,7 @@ const Staking = () => {
     <div className={s.root} id="staking_panel">
       <div className={s.rightWrapper}>
         <div className="text-[30px] sm:text-[40px] text-[#FFE300] font-bold font-sefer">
-          Staking
+          Staking and Buy
         </div>
         <div
           className="text-[20px] sm:text-[25px] font-semibold mt-[10px] text-white"
