@@ -11,7 +11,6 @@ const NFTItem = ({
   nftId,
   supplyNft,
   tokenAmount,
-  lockTime,
 }) => {
   const [curr, setCurr] = useState(0);
   const [anchorEl, setAnchorEl] = React.useState(null);
@@ -151,18 +150,10 @@ const NFTItem = ({
         </div>
         <div className="w-full flex items-center justify-between">
           <div className="text-[12px] text-[#fff] font-bold">
-            Jewcoin Required
+            Shekel Required
           </div>
           <div className="text-[12px] text-[#fff] font-bold">
-            {tokenAmount} Jew
-          </div>
-        </div>
-        <div className="w-full flex items-center justify-between">
-          <div className="text-[12px] text-[#fff] font-bold">
-            Staking period
-          </div>
-          <div className="text-[12px] text-[#fff] font-bold">
-            {lockTime} Days
+            {tokenAmount.toLocaleString()} Shekel
           </div>
         </div>
       </div>

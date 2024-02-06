@@ -200,7 +200,7 @@ const Staking = () => {
           </div>
           <div className="ms:absolute w-full sm:w-[80%] ms:w-auto flex flex-col justify-between right-[30px] md:right-[12px] top-[30px] left-[55%] md:left-[60%] bottom-[30px]">
             <div
-              className="relative justify-between flex flex-col w-full rounded-[10px] bg-[#7659AD] mb-[10px] px-[14px] py-[8px] h-[80%]"
+              className="relative h-[50%] justify-between flex flex-col w-full rounded-[10px] bg-[#7659AD] mb-[10px] px-[14px] py-[8px] "
               style={{ boxShadow: "0px 4px 10px 0px rgba(0, 0, 0, 0.25)" }}
             >
               <div className="w-full flex items-center mb-[5px] justify-between">
@@ -214,24 +214,11 @@ const Staking = () => {
                     Amount
                   </div>
                   <div className="text-[13px] lg:text-[14px] text-[#fff] font-bold">
-                    {amount} Jew
-                  </div>
-                </div>
-                <div className="w-full flex items-center justify-between">
-                  <div className="text-[13px] lg:text-[14px] text-[#fff] font-bold">
-                    period
-                  </div>
-                  <div className="text-[13px] lg:text-[14px] text-[#fff] font-bold">
-                    {period} Days
+                    {amount.toLocaleString()} Shekel
                   </div>
                 </div>
               </div>
 
-              <div className="w-full mb-[5px] flex items-center justify-between">
-                <div className="text-[14px] text-[#fff] font-bold">
-                  {amount} Jewcoin staked for {period} days earns you a {name}
-                </div>
-              </div>
               <div className="w-full flex items-center justify-between">
                 <div className="text-[14px] lg:text-[16px] font-bold text-[#ffe300]">
                   Balance
@@ -241,7 +228,7 @@ const Staking = () => {
                     balance >= amount ? "text-[#ffe300]" : "text-[#ff3939]"
                   } font-bold`}
                 >
-                  {balance} Jew
+                  {balance} Shekel
                 </div>
               </div>
             </div>
@@ -250,11 +237,11 @@ const Staking = () => {
                 className="h-[50px] w-full text-[white] text-[24px] font-bold bg-[#7659AD] rounded-[10px] h-[20%]"
                 onClick={onStaking}
               >
-                Stake
+                Buy
               </button>
             ) : (
               <div className="flex items-center justify-center text-center h-[50px] w-full text-[white] text-[24px] font-bold bg-[black] rounded-[10px]  h-[20%]">
-                <div className="text-[24px] font-bold">Un-Stake</div>
+                <div className="text-[24px] font-bold">No Balance</div>
               </div>
             )}
           </div>

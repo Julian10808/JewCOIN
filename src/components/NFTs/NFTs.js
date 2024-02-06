@@ -37,7 +37,6 @@ const NFTS = () => {
             nftId={2311}
             supplyNft={"0 / 5000"}
             tokenAmount={50}
-            lockTime={10}
           />
         </div>
         <div
@@ -61,7 +60,6 @@ const NFTS = () => {
             nftId={2321}
             supplyNft={"0 / 2500"}
             tokenAmount={60}
-            lockTime={10}
           />
         </div>
         <div
@@ -86,7 +84,6 @@ const NFTS = () => {
             nftId={2301}
             supplyNft={"0 / 1200"}
             tokenAmount={75}
-            lockTime={14}
           />
         </div>
         <div
@@ -111,7 +108,6 @@ const NFTS = () => {
             nftId={2311}
             supplyNft={"0 / 600"}
             tokenAmount={100}
-            lockTime={14}
           />
         </div>
 
@@ -139,7 +135,6 @@ const NFTS = () => {
             nftId={2341}
             supplyNft={"0 / 500"}
             tokenAmount={150}
-            lockTime={21}
           />
         </div>
 
@@ -161,7 +156,6 @@ const NFTS = () => {
             nftId={2341}
             supplyNft={"0 / 350"}
             tokenAmount={200}
-            lockTime={21}
           />
         </div>
         <div
@@ -182,7 +176,6 @@ const NFTS = () => {
             nftId={2341}
             supplyNft={"0 / 200"}
             tokenAmount={350}
-            lockTime={21}
           />
         </div>
         <div
@@ -198,7 +191,6 @@ const NFTS = () => {
             nftId={2341}
             supplyNft={"0 / 10"}
             tokenAmount={250000}
-            lockTime={30}
           />
         </div>
       </div>
