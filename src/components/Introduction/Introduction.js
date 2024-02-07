@@ -115,7 +115,11 @@ const Introduction = () => {
   };
 
   const onBuyAmountChangeHandler = (e) => {
-    setTokenAmount(e.target.value);
+    const inputValue = e.target.value;
+    if (/^\d*$/.test(inputValue)) {
+      // Update the state with the new value
+      setTokenAmount(inputValue);
+    }
 
     console.log(selectedCrypto, tokenAmount, selectedCryptoAddress, "amount");
     if (timeoutId) {
@@ -148,7 +152,7 @@ const Introduction = () => {
         headers: {
           "Content-Type": "application/json",
           // "Content-Type": "application/x-www-form-urlencoded",
-          "Access-Control-Allow-Origin": "*",
+          "Access-Control-Allow-Origin": "http://localhost:3000",
         },
       }
     ).catch((err) => {
@@ -271,6 +275,7 @@ const Introduction = () => {
                 className="outline-none w-full"
                 placeholder="Amount"
                 type="number"
+                value={tokenAmount}
                 onChange={onBuyAmountChangeHandler}
               />
             </div>

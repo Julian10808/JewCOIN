@@ -18,8 +18,9 @@ const Staking = () => {
   const [curr, setCurr] = useState(0);
   const [name, setName] = useState("Yarmulke");
   const [amount, setAmount] = useState(50);
-  const [period, setPeriod] = useState(10);
   const [balance, setBalance] = useState(100);
+  const [stakedPeriod, setStakedPeriod] = useState(0);
+  const [stakedAmount, setStakedAmount] = useState(0);
 
   const onStaking = () => {
     setStaking(1);
@@ -96,10 +97,25 @@ const Staking = () => {
     // console.log(curr, name, "next");
   };
 
+  const onAmountChangeHandler = (e) => {
+    const inputValue = e.target.value;
+    if (/^\d*$/.test(inputValue)) {
+      // Update the state with the new value
+      setStakedAmount(inputValue);
+    }
+  };
+
+  const onDateChangeHandler = (e) => {
+    const inputValue = e.target.value;
+    if (/^\d*$/.test(inputValue)) {
+      // Update the state with the new value
+      setStakedPeriod(inputValue);
+    }
+  };
+
   useEffect(() => {
     setName(images[curr].name);
     setAmount(images[curr].amount);
-    setPeriod(images[curr].period);
     // Clear the interval when the component unmounts
   }, [curr]);
 
@@ -113,7 +129,7 @@ const Staking = () => {
           className="text-[20px] sm:text-[25px] font-semibold mt-[10px] text-white"
           // style={{ color: "rgba(11, 7, 24, 0.30)" }}
         >
-          Staking your jewcoin
+          Staking your shekel token
         </div>
         <SvgStakingRightArrow />
         <div className="text-[14px] sm:text-[18px] font-semibold mt-[30px]">
@@ -145,6 +161,56 @@ const Staking = () => {
         </div>
       </div>
       <div className={s.leftWrapper}>
+        <div
+          className="relative  w-full font-bold h-full  flex-col ms:flex-row items-center justify-center gap-[20px] bg-[#FFE300] rounded-[20px] px-[20px] xl:px-[25px] lg:px-[12px] sm:px-[32px] py-[30px]  mb-[20px]"
+          style={{ boxShadow: "4px 3px 13px 0px #FFE300" }}
+        >
+          <div
+            className="relative h-[50%] justify-between flex flex-col w-full rounded-[10px] bg-[#7659AD] mb-[10px] px-[14px] py-[8px] "
+            style={{ boxShadow: "0px 4px 10px 0px rgba(0, 0, 0, 0.25)" }}
+          >
+            <div className="flex items-center justify-between">
+              <div className="text-[14px] lg:text-[16px] font-bold text-[#ffe300]">
+                Jewcoin Amount:
+              </div>
+              <div className={s.amountTokenInput}>
+                <input
+                  className="outline-none w-full"
+                  placeholder="Amount"
+                  type="number"
+                  value={stakedAmount}
+                  onChange={onAmountChangeHandler}
+                />
+              </div>
+            </div>
+            <div className="flex items-center justify-between">
+              <div className="text-[14px] lg:text-[16px] font-bold text-[#ffe300]">
+                Locked Period:
+              </div>
+              <div className={s.periodInput}>
+                <input
+                  className="outline-none w-full"
+                  placeholder="date"
+                  type="number"
+                  value={stakedPeriod}
+                  onChange={onDateChangeHandler}
+                />
+              </div>
+            </div>
+
+            <div className="text-[14px] text-center lg:text-[16px] font-bold text-[#ffe300]">
+              you can get {(stakedAmount * stakedPeriod) / 10} shekel tokens
+              after {stakedPeriod} days
+            </div>
+          </div>
+
+          <button
+            className="h-[50px] w-full text-[white] text-[24px] font-bold bg-[#7659AD] rounded-[10px] h-[20%]"
+            onClick={onStaking}
+          >
+            Stake
+          </button>
+        </div>
         <div
           className="relative w-full  h-full flex flex-col ms:flex-row items-center justify-center gap-[20px] bg-[#FFE300] rounded-[20px] px-[20px] xl:px-[25px] lg:px-[12px] sm:px-[32px] py-[30px]  mb-[20px]"
           style={{ boxShadow: "4px 3px 13px 0px #FFE300" }}
