@@ -2,7 +2,7 @@
   @apply w-full flex bg-[#0B0718] items-center justify-center flex-wrap;
 
   .leftWrapper {
-    @apply flex-row  lg:w-[50%] items-center justify-center  py-[72px] px-[50px] sm:px-[70px] lg:pl-[0px] lg:pr-[50px]  2xl:px-[100px] relative;
+    @apply flex-row  lg:w-[50%] items-center justify-center  px-[50px] sm:px-[70px] lg:pl-[0px] lg:pr-[50px]  2xl:px-[100px] lg:mt-[150px] relative;
   }
 
   .amountTokenInput {

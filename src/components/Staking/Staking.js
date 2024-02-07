@@ -123,13 +123,13 @@ const Staking = () => {
     <div className={s.root} id="staking_panel">
       <div className={s.rightWrapper}>
         <div className="text-[30px] sm:text-[40px] text-[#FFE300] font-bold font-sefer">
-          Staking and Buy
+          Staking
         </div>
         <div
           className="text-[20px] sm:text-[25px] font-semibold mt-[10px] text-white"
           // style={{ color: "rgba(11, 7, 24, 0.30)" }}
         >
-          Staking your shekel token
+          Staking your Jewcoin
         </div>
         <SvgStakingRightArrow />
         <div className="text-[14px] sm:text-[18px] font-semibold mt-[30px]">
