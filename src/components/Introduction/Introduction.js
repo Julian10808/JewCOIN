@@ -89,11 +89,16 @@ const Introduction = () => {
 
   const [index, setIndex] = useState(0);
   const [timeLeft, setTimeLeft] = useState(calculateTimeLeft());
-  const [amountToken, setAmountToken] = useState("");
+  const [tokenAmount, setTokenAmount] = useState("");
+  const [tokenPrice, setTokenPrice] = useState(0.15);
+
   const [priceETH, setPriceToken] = useState(0);
   const [selectedCrypto, setSelectedCrypto] = useState("USDC");
   const [selectedCryptoAddress, setSelectedCryptoAddress] = useState("");
-  const [amountJewCoin, setAmountJewCoin] = useState(0);
+  const [neededUSD, setNeededUSD] = useState(0);
+  const [inputValue, setInputValue] = useState("");
+  const [lastInputChangeTime, setLastInputChangeTime] = useState(0);
+  const [timeoutId, setTimeoutId] = useState(null);
 
   //===========stable token Contract Config================
   let erc20ContractConfig = {};
@@ -110,27 +115,60 @@ const Introduction = () => {
   };
 
   const onBuyAmountChangeHandler = (e) => {
-    setAmountToken(e.target.value);
-    console.log(selectedCrypto, amountToken, selectedCryptoAddress, "amount");
+    setTokenAmount(e.target.value);
+
+    console.log(selectedCrypto, tokenAmount, selectedCryptoAddress, "amount");
+    if (timeoutId) {
+      clearTimeout(timeoutId);
+    }
+    const currentTime = Date.now();
+
+    if (currentTime - lastInputChangeTime > 1000) {
+      // Your function to be triggered after 1s
+      console.log("Function triggered after 1s with value:", e.target.value);
+      // Call your other function here
+      // Example: otherFunction(newValue);
+    }
+    // Set a new timeout for 1s
+    const newTimeoutId = setTimeout(() => {
+      // Update the last input change time
+      setLastInputChangeTime(currentTime);
+    }, 1000);
+
+    // Save the timeout ID in the state
+    setTimeoutId(newTimeoutId);
   };
 
-  const getPriceETH = async (amount) => {
+  const getPriceETH = async (amount, tokenPrice) => {
     const api_call = await fetch(
-      `https://api.coingecko.com/api/v3/simple/price?ids=ethereum&vs_currencies=usd`
+      `https://api.coingecko.com/api/v3/simple/price?ids=ethereum&vs_currencies=usd`,
+      {
+        method: "GET",
+        mode: "cors",
+        headers: {
+          "Content-Type": "application/json",
+          // "Content-Type": "application/x-www-form-urlencoded",
+          "Access-Control-Allow-Origin": "*",
+        },
+      }
+    ).catch((err) => {
+      console.error(err);
+    });
+    const price = await api_call?.json();
+    console.log(
+      ((amount * tokenPrice) / price?.ethereum.usd).toFixed(3),
+      "price of ethereum"
     );
-    const price = await api_call.json();
-    console.log(price.ethereum.usd, "price of ethereum");
-    return price?.ethereum.usd * amount;
-    console.log(priceETH, "price of ethereum");
+    setNeededUSD(((amount * tokenPrice) / price?.ethereum.usd).toFixed(3));
   };
 
   useEffect(() => {
     if (selectedCrypto === "USDC" || selectedCrypto === "USDT") {
-      setAmountJewCoin(amountToken * 2);
+      setNeededUSD((tokenAmount * tokenPrice).toFixed(2));
     } else if (selectedCrypto === "ETH") {
-      setAmountJewCoin(getPriceETH(amountToken) / 0.5);
+      getPriceETH(tokenAmount, tokenPrice);
     }
-  }, [amountToken]);
+  }, [tokenAmount]);
 
   useEffect(() => {
     const timer = setInterval(() => {
@@ -225,8 +263,9 @@ const Introduction = () => {
           }}
         >
           <p>Your JewCoin Balance: 0</p>
-          <p>Current Jewcoin Price: 0.5$</p>
+          <p>Current Jewcoin Price: {tokenPrice}$</p>
           <div className="flex items-center justify-around">
+            <p>Jewcoin</p>
             <div className={s.amountTokenInput}>
               <input
                 className="outline-none w-full"
@@ -234,6 +273,8 @@ const Introduction = () => {
                 type="number"
                 onChange={onBuyAmountChangeHandler}
               />
+            </div>
+            <div className={s.selectedCrypto}>
               <Menu as="div" className="relative">
                 <div className="h-8">
                   <Menu.Button className="flex md:inline-flex justify-between items-center  space-x-1 sm:space-x-2 w-full border-Light-Slate-Gray/90 text-Light-Slate-Gray ">
@@ -298,11 +339,11 @@ const Introduction = () => {
                 </Transition>
               </Menu>
             </div>
-            <p className="text-lg">
-              You can get
-              <br /> {amountJewCoin} JewCoin
-            </p>
           </div>
+          <p className="text-lg">
+            If you want to buy {tokenAmount} jewcoin, you need {neededUSD}{" "}
+            {selectedCrypto}
+          </p>
 
           <div className={s.buyBotton}> Buy JewCoin</div>
         </div>

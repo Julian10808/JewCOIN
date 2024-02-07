@@ -117,29 +117,31 @@ const Staking = () => {
         </div>
         <SvgStakingRightArrow />
         <div className="text-[14px] sm:text-[18px] font-semibold mt-[30px]">
-          While historically, Jewish cultural items and practices have been
-          reserved for Jews alone, The Jewcoins you saved are so grateful that
-          they want to share their culture with you as a thank you. Depending on
-          the amount of Jewcoin staked and the duration of the staking period,
-          you will earn different NFTs representing Jewish items, rituals, and
-          stories. Collect these NFTs to further show your support for Jewish
-          people or resell them to those who weren't able to get their own
-          Jewcoins. Minting NFTs with your Jewcoin is an investment and an
+          What do Jews do? They make Shekels! After saving them from the burn,
+          it's time to watch them work their magic. Stake your Jewcoin to earn
+          $SHEKEL, the currency token for the Jewcoin ecosystem. All NFTs and
+          virtual holy land in our metaverse will be purchased with Shekel. You
+          will earn different amounts of Shekel depending on how much Jewcoin
+          you staked and how long you stake it. The formula follows: The amount
+          of Jewcoins multiplied by time staked divided by ten equals the amount
+          of Sheklel yielded. If you stake 250 Jewcoins for seven days, you will
+          earn 175 Shekel. If you stake 666 Jewcoin for six days, it will earn
+          399.6 Shekel. Given that Shekel is inflationary and has no maximum
+          supply, we will be burning at least 50% of the Shekel from NFT and
+          Metaverse sales. While historically, Jewish cultural items and
+          practices have been reserved for Jews alone, The Jewcoins you saved
+          are so grateful that they want to share their culture with you as a
+          thank you. Collect these NFTs to show your support for Jewish people
+          further or resell them to those who weren't able to get their own
+          Jewcoins. Minting NFTs with your Shekel is an investment and an
           education. It's not cultural appropriation; it's cultural
           appreciation! Remember that NFTs are limited, so start staking your
           Jewcoins as soon as you save them to ensure you get your Jewish NFTs.
-          <br />
-          <br />
-          Jewcoins can be unstaked at anytime, there is no locking period.
-          However, if you unstake before the period required to earn an NFT, you
-          will lose all staking progress and will have to start again from the
-          beginning.
-          <br />
-          <div className="text-[#FFE300]">
+          {/* <div className="text-[#FFE300]">
             These are the first round of NFTs you will earn. Round 2 will focus
             on pivotal moments in the Old Testament, such as Moses parting the
             Red Sea and David beating Goliath.
-          </div>
+          </div> */}
         </div>
       </div>
       <div className={s.leftWrapper}>

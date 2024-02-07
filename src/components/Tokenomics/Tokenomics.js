@@ -30,15 +30,17 @@ const Tokenomics = () => {
           {/* <div className="text-[#FFE300] font-sefer text-[23px]"></div> */}
           Six million JewCoins is the maximum amount that can ever exist.
           <br />
-          The smallest denomination of a Jew coin is 0.000001 and is called a
-          Shekel. The burn begins on February 24th, with 66,000 burned at the
-          end of each day. The amount of Jewcoin rescued each day will be
-          subtracted from the daily rate of 66,000. If one Jewcoin is rescued,
-          then 65,999 will burn that day. If 60,000 Jewcoin are rescued, only
-          6,000 will burn that day. More than 66,000 Jewcoins saved in a day
-          does not affect the amount burned the following day.The price of
-          Jewcoin will increase as more Jewcoins are rescued, with increases
-          coming for every 1 million saved.
+          Jewcoins can’t not be divided as each Jewcoin represents a potential
+          casualty of the burn. Either a whole Jewcoin is saved or it is burned.
+          Shekel on the other hand is extremely divisible with the smallest
+          increment being .000000000000000001 Shekel. The burn begins on
+          February 24th, with 66,000 burned at the end of each day. The amount
+          of Jewcoin rescued each day will be subtracted from the daily rate of
+          66,000. If one Jewcoin is rescued, then 65,999 will burn that day. If
+          60,000 Jewcoin are rescued, only 6,000 will burn that day. More than
+          66,000 Jewcoins saved in a day does not affect the amount burned the
+          following day.The price of Jewcoin will increase as more Jewcoins are
+          rescued, with increases coming for every 1 million saved.
           <p>
             <br />
             Jewcoin starting price: .15 USDC, .15 USDT or corresponding amount
