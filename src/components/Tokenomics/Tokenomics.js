@@ -69,16 +69,19 @@ const Tokenomics = () => {
           After three months, all Jewcoins will have been rescued or burned.
           Once this happens, the Jewcoin Liquidity Pool will open up, and
           Jewcoin rescuers can sell their Jewcoin to those who didn’t get a
-          chance to acquire tokens during the burn. There will be a 3%
-          buy-and-sell fee for all transactions in the pool; after all, this is
-          Jewcoin. Once the LP is live, the Jewcoin price will fluctuate in
-          real-time based on the amount being sold and incoming demand for
-          Jewcoins. 69% of all ethereum acquired from the Jewcoin token burn
-          sale will be saved and deposited into the Liquidity pool to prevent
-          the Jewcoin price from tanking and show the Jewcoin community that
-          there will not be a rugpull. The other 31% will be used for funding
-          further development of Jewcoin and loading the liquidity pool in the
-          future if needed to stabilize price.
+          chance to acquire tokens during the burn. Anyone who has saved
+          Jewcoins from Auchwallet can immidietly open up their own liquidity
+          pool, but we wont be opening one until the burn is finished. We
+          encourage everyone to buy Jewcoin directly from Auchwallet and not
+          from another user (while the burn is still ongoing) as those Jewcoins
+          have already been rescued. Once the LP is live, the Jewcoin price will
+          fluctuate in real-time based on the amount being sold and incoming
+          demand for Jewcoins. 50% of all ethereum acquired from the Jewcoin
+          token burn sale will be saved and deposited into the Liquidity pool to
+          prevent the Jewcoin price from tanking and show the Jewcoin community
+          that there will not be a rugpull. The other 50% will be used for
+          funding further development of Jewcoin and loading the liquidity pool
+          in the future if needed to stabilize price.
         </div>
       </div>
     </div>

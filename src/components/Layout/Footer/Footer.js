@@ -11,7 +11,7 @@ const Footer = () => {
           className="w-full h-full sm:w-[70%] md:w-[60%] lg:w-[300px] lg:h-[300px]"
           alt="twitter"
         />
-        <div className="text-[24px] sm:text-[28px]font-bold">
+        <div className="text-[24px] sm:text-[28px]font-bold text-blue-500 underline ">
           <a href="https://twitter.com/@savethejewcoins">@savethejewcoins</a>
         </div>
       </div>
@@ -24,7 +24,7 @@ const Footer = () => {
           className="w-full sm:w-[70%] md:w-[60%] lg:w-[250px] h-full lg:h-[300px]"
           alt="Telegram"
         />
-        <div className="text-[24px] sm:text-[28px]font-bold">
+        <div className="text-[24px] sm:text-[28px] font-bold text-blue-500 underline">
           <a href="https://t.me/Save_The_Jewcoins">@SAVE_THE_JEWCOINS</a>
         </div>
       </div>
@@ -38,7 +38,7 @@ const Footer = () => {
           alt="Email"
         />
 
-        <div className="text-[24px] sm:text-[28px]font-bold text-center">
+        <div className="text-[24px] sm:text-[28px]font-bold text-center text-blue-500 underline">
           savethejewcoins
           <br />
           @protonmail.com

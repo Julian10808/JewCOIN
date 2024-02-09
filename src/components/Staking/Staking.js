@@ -138,21 +138,26 @@ const Staking = () => {
           $SHEKEL, the currency token for the Jewcoin ecosystem. All NFTs and
           virtual holy land in our metaverse will be purchased with Shekel. You
           will earn different amounts of Shekel depending on how much Jewcoin
-          you staked and how long you stake it. The formula follows: The amount
-          of Jewcoins multiplied by time staked divided by ten equals the amount
-          of Sheklel yielded. If you stake 250 Jewcoins for seven days, you will
-          earn 175 Shekel. If you stake 666 Jewcoin for six days, it will earn
-          399.6 Shekel. Given that Shekel is inflationary and has no maximum
-          supply, we will be burning at least 50% of the Shekel from NFT and
-          Metaverse sales. While historically, Jewish cultural items and
-          practices have been reserved for Jews alone, The Jewcoins you saved
-          are so grateful that they want to share their culture with you as a
-          thank you. Collect these NFTs to show your support for Jewish people
-          further or resell them to those who weren't able to get their own
-          Jewcoins. Minting NFTs with your Shekel is an investment and an
-          education. It's not cultural appropriation; it's cultural
-          appreciation! Remember that NFTs are limited, so start staking your
-          Jewcoins as soon as you save them to ensure you get your Jewish NFTs.
+          you staked and how long you stake it.
+          <div className="text-[#FFE300]">
+            <br />
+            The formula follows: The amount of Jewcoins multiplied by time
+            staked divided by ten equals the amount of Sheklel yielded.
+          </div>
+          <br />
+          If you stake 250 Jewcoins for seven days, you will earn 175 Shekel. If
+          you stake 666 Jewcoin for six days, it will earn 399.6 Shekel. Given
+          that Shekel is inflationary and has no maximum supply, we will be
+          burning at least 50% of the Shekel from NFT and Metaverse sales. While
+          historically, Jewish cultural items and practices have been reserved
+          for Jews alone, The Jewcoins you saved are so grateful that they want
+          to share their culture with you as a thank you. Collect these NFTs to
+          show your support for Jewish people further or resell them to those
+          who weren't able to get their own Jewcoins. Minting NFTs with your
+          Shekel is an investment and an education. It's not cultural
+          appropriation; it's cultural appreciation! Remember that NFTs are
+          limited, so start staking your Jewcoins as soon as you save them to
+          ensure you get your Jewish NFTs.
           {/* <div className="text-[#FFE300]">
             These are the first round of NFTs you will earn. Round 2 will focus
             on pivotal moments in the Old Testament, such as Moses parting the
@@ -190,7 +195,7 @@ const Staking = () => {
               <div className={s.periodInput}>
                 <input
                   className="outline-none w-full"
-                  placeholder="date"
+                  placeholder="days"
                   type="number"
                   value={stakedPeriod}
                   onChange={onDateChangeHandler}
@@ -199,7 +204,7 @@ const Staking = () => {
             </div>
 
             <div className="text-[14px] text-center lg:text-[16px] font-bold text-[#ffe300]">
-              you can get {(stakedAmount * stakedPeriod) / 10} shekel tokens
+              you'll earn {(stakedAmount * stakedPeriod) / 10} shekel tokens
               after {stakedPeriod} days
             </div>
           </div>
