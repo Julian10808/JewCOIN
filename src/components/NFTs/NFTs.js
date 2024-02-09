@@ -164,12 +164,7 @@ const NFTS = () => {
         >
           <NFTItem
             name="Dreidel"
-            images={[
-              "assets/images/Dreidel/rotateDreidel.gif",
-              "assets/images/Dreidel/2_3.jpg",
-              "assets/images/Dreidel/3_2.jpg",
-              "assets/images/Dreidel/4_1.jpg",
-            ]}
+            images={["assets/images/Dreidel/rotateDreidel.gif"]}
             description={
               "A dreidel is a spinning top that is often played with during Hanukkah, a Jewish holiday. It has four sides, each with a Hebrew letter on it. Players take turns spinning the dreidel and depending on which letter it lands on, they either win or lose game pieces"
             }
