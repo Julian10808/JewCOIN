@@ -165,7 +165,7 @@ const NFTS = () => {
           <NFTItem
             name="Dreidel"
             images={[
-              "assets/images/Dreidel/1_4.jpg",
+              "assets/images/Dreidel/rotateDreidel.gif",
               "assets/images/Dreidel/2_3.jpg",
               "assets/images/Dreidel/3_2.jpg",
               "assets/images/Dreidel/4_1.jpg",
@@ -184,7 +184,7 @@ const NFTS = () => {
         >
           <NFTItem
             name="Golden Foreskin"
-            images={["assets/images/Golden Foreskin/Golden Foreskin.jpg"]}
+            images={["assets/images/Golden Foreskin/rotateForeskin.gif"]}
             description={
               "Are you a non-Jew who had his foreskin stolen when he was a vulnerable infant? It's time you got it back. Are you a Jew who never had the option to voluntarily give up your foreskin to make the covenant with your g-d authentic? Mint this NFT and then burn it to make it a proper sacrifice"
             }

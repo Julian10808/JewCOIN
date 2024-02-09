@@ -31,7 +31,7 @@ const Staking = () => {
   const images = [
     {
       name: "Golden Foreskin",
-      link: "assets/images/Golden Foreskin/Golden Foreskin.jpg",
+      link: "assets/images/Golden Foreskin/rotateForeskin.gif",
       amount: 250000,
       period: 30,
     },
@@ -73,7 +73,7 @@ const Staking = () => {
     },
     {
       name: "Dreidel",
-      link: "assets/images/Dreidel/1_1.jpg",
+      link: "assets/images/Dreidel/rotateDreidel.gif",
       amount: 350,
       period: 21,
     },
