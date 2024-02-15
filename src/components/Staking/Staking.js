@@ -148,16 +148,18 @@ const Staking = () => {
           If you stake 250 Jewcoins for seven days, you will earn 175 Shekel. If
           you stake 666 Jewcoin for six days, it will earn 399.6 Shekel. Given
           that Shekel is inflationary and has no maximum supply, we will be
-          burning at least 50% of the Shekel from NFT and Metaverse sales. While
-          historically, Jewish cultural items and practices have been reserved
-          for Jews alone, The Jewcoins you saved are so grateful that they want
-          to share their culture with you as a thank you. Collect these NFTs to
-          show your support for Jewish people further or resell them to those
-          who weren't able to get their own Jewcoins. Minting NFTs with your
-          Shekel is an investment and an education. It's not cultural
-          appropriation; it's cultural appreciation! Remember that NFTs are
-          limited, so start staking your Jewcoins as soon as you save them to
-          ensure you get your Jewish NFTs.
+          decreasing the amount of $SHEKEL earned every month until the staking
+          reward is 10% of the original amount. Once the SHEKEL reward reaches
+          this level it will not be decreased further. While historically,
+          Jewish cultural items and practices have been reserved for Jews alone,
+          The Jewcoins you saved are so grateful that they want to share their
+          culture with you as a thank you. Collect these NFTs to show your
+          support for Jewish people further or resell them to those who weren't
+          able to get their own Jewcoins. Acquiring NFTs with your Shekel is an
+          investment and an education. It's not cultural appropriation; it's
+          cultural appreciation! Remember that NFTs are limited, so start
+          staking your Jewcoins as soon as you save them to ensure you get your
+          Jewish NFTs.
           {/* <div className="text-[#FFE300]">
             These are the first round of NFTs you will earn. Round 2 will focus
             on pivotal moments in the Old Testament, such as Moses parting the

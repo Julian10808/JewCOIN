@@ -32,7 +32,7 @@ const NFTS = () => {
               "assets/images/Yarmulke/9.jpg",
             ]}
             description={
-              "A yarmulke, also known as a kippah, is a small, round skullcap worn by Jewish men as a symbol of their religious faith and reverence for God. It is typically worn during prayer or other religious ceremonies, and it signifies a sense of humility and acknowledgment of a higher power. In some Jewish traditions, wearing a yarmulke is a customary practice, while in others, it may be reserved for specific occasions or locations, such as a synagogue or during religious rituals. The style and size of yarmulkes can vary, but they are generally small and worn at the top of the head."
+              "A yarmulke, also known as a kippah, is a small, round skullcap worn by Jewish men as a symbol of their religious faith and reverence for God. It is typically worn during prayer or other religious ceremonies, and it signifies a sense of humility and acknowledgment of a higher power. In some Jewish traditions, wearing a yarmulke is a customary practice, while in others, it may be reserved for specific occasions or locations, such as a synagogue or during religious rituals. The style and size of yarmulkes can vary, but they are generally small and worn at the top of the head"
             }
             nftId={2311}
             supplyNft={"0 / 5000"}

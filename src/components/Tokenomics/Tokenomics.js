@@ -30,7 +30,7 @@ const Tokenomics = () => {
           {/* <div className="text-[#FFE300] font-sefer text-[23px]"></div> */}
           Six million JewCoins is the maximum amount that can ever exist.
           <br />
-          Jewcoins can’t not be divided as each Jewcoin represents a potential
+          Jewcoins can’t be divided as each Jewcoin represents a potential
           casualty of the burn. Either a whole Jewcoin is saved or it is burned.
           Shekel on the other hand is extremely divisible with the smallest
           increment being .000000000000000001 Shekel. The burn begins on

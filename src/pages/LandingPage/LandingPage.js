@@ -7,6 +7,7 @@ import Roadmap from "components/Roadmap";
 import Footer from "components/Layout/Footer";
 import Tokenomics from "components/Tokenomics";
 import Disclaimer from "components/Disclaimer";
+import Airdrop from "components/Airdrop";
 
 function LandingPage() {
   return (
@@ -18,6 +19,7 @@ function LandingPage() {
       <Roadmap />
       <Tokenomics />
       <Disclaimer />
+      <Airdrop />
       <Footer />
     </div>
   );
