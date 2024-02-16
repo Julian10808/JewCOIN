@@ -166,7 +166,7 @@ const NFTS = () => {
             name="Dreidel"
             images={["assets/images/Dreidel/rotateDreidel.gif"]}
             description={
-              "A dreidel is a spinning top that is often played with during Hanukkah, a Jewish holiday. It has four sides, each with a Hebrew letter on it. Players take turns spinning the dreidel and depending on which letter it lands on, they either win or lose game pieces"
+              "A Dreidel is a spinning top that is often played with during Hanukkah, a Jewish holiday. It has four sides, each with a Hebrew letter on it. Players take turns spinning the dreidel and depending on which letter it lands on, they either win or lose game pieces"
             }
             nftId={2341}
             supplyNft={"0 / 200"}
