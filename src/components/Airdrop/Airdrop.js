@@ -135,7 +135,7 @@ const Airdrop = () => {
         <div className="text-[14px] sm:text-[18px] font-semibold mt-[30px]">
           Not to be confused with the 10 Golden Foreskin NFTs, $SKIN holders
           will be able to enter into a lottery to win the opportunity to submit
-          their own NFT desgins and earn 50% of the Shekels from the sales of
+          their own NFT designs and earn 50% of the Shekels from the sales of
           their NFT. The more Foreskin you hold, the more entries into the NFT
           sweepstakes you will get. Every two months, the lottery will commence
           again, giving a new chance for $SKIN holders to win the rights to

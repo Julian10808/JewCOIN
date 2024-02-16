@@ -48,9 +48,9 @@ const Roadmap = () => {
               <li>The last Jewcoins have been bought or burned.</li>
               <li>The second round of NFTs are minted.</li>
               <li>
-                Jewpunks: 10,000 Jewish themed CryptoPunks. (Yes, some of them
-                will be tunnelers. No, we can’t guarantee that owning a Jewpunk
-                will give you access it to those tunnels.)
+                JewCrew: undetermined amount Jewish themed NFTS. (Yes, some of
+                them will be tunnelers. No, we can’t guarantee that owning a
+                Jewpunk will give you access to those tunnels.)
               </li>
               <br />
             </ul>
