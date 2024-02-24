@@ -62,7 +62,7 @@ const cryptosETH = stableTokens.cryptosETH;
 const Introduction = () => {
   const calculateTimeLeft = () => {
     const now = new Date().getTime();
-    const difference = 1708794000000 - now;
+    const difference = 1708884000000 - now;
 
     if (difference <= 0) {
       // Countdown has expired
@@ -181,7 +181,7 @@ const Introduction = () => {
 
     // Clear the interval when the component unmounts
     return () => clearInterval(timer);
-  }, [1708794000000]);
+  }, [1708884000000]);
 
   useEffect(() => {
     const intervalId = setInterval(
@@ -231,7 +231,7 @@ const Introduction = () => {
           }}
         >
           {" "}
-          6,000,000 Jewcoins are trapped in Auchwallet, with up to 66,000
+          600,000,000 Jewcoins are trapped in Auchwallet, with up to 6 million
           Jewcoins scheduled for daily burning. If nobody acts to rescue them,
           all will burn in 3 months. There will be no additional Jewcoins mined,
           nor any way to revive them once burned. While their situation is dire,
