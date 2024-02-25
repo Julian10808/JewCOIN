@@ -54,9 +54,6 @@ const Tokenomics = () => {
           Jewcoin is rescued, then 65,999 will burn that day. If 60,000 Jewcoins
           are rescued, only 6,000 will burn that day. More than 66,000 Jewcoins
           saved in a day does not affect the amount burned the following day.
-          The price of Jewcoin will increase as more Jewcoins are rescued, with
-          increases coming for every 1 million saved. Jewcoin starting price:
-          .15 USDC, .15 USDT or corresponding amount in ETH.
           <br />
           <br />
           <p>
@@ -68,22 +65,12 @@ const Tokenomics = () => {
             LP to incentivize purchases of Jewcoin from Auchwallet over the LP.
           </p>
           <br />
-          After three months, all Jewcoins will have been rescued or burned.
-          Once this happens, the Jewcoin Liquidity Pool will open up, and
-          Jewcoin rescuers can sell their Jewcoin to those who didn’t get a
-          chance to acquire tokens during the burn. Anyone who has saved
-          Jewcoins from Auchwallet can immidietly open up their own liquidity
-          pool, but we wont be opening one until the burn is finished. We
-          encourage everyone to buy Jewcoin directly from Auchwallet and not
-          from another user (while the burn is still ongoing) as those Jewcoins
-          have already been rescued. Once the LP is live, the Jewcoin price will
-          fluctuate in real-time based on the amount being sold and incoming
-          demand for Jewcoins. 50% of all ethereum acquired from the Jewcoin
-          token burn sale will be saved and deposited into the Liquidity pool to
-          prevent the Jewcoin price from tanking and show the Jewcoin community
-          that there will not be a rugpull. The other 50% will be used for
-          funding further development of Jewcoin and loading the liquidity pool
-          in the future if needed to stabilize price.
+          50% of all ethereum acquired from the Jewcoin token burn sale will be
+          saved and deposited into the Liquidity pool to prevent the Jewcoin
+          price from tanking and show the Jewcoin community that there will not
+          be a rugpull. The other 50% will be used for funding further
+          development of Jewcoin and loading the liquidity pool in the future if
+          needed to stabilize price.
         </div>
       </div>
     </div>
