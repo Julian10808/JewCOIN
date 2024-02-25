@@ -160,6 +160,9 @@ const Staking = () => {
           appropriation; it's cultural appreciation! Remember that NFTs are
           limited, so start staking your Jewcoins as soon as you save them to
           ensure you get your Jewish NFTs.
+          <br />
+          Once you purchase your NFT, you’ll get an alert giving you your NFT ID
+          which you can use to import your NFT into your ethereum wallet.
           {/* <div className="text-[#FFE300]">
             These are the first round of NFTs you will earn. Round 2 will focus
             on pivotal moments in the Old Testament, such as Moses parting the
