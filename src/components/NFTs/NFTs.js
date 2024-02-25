@@ -185,7 +185,7 @@ const NFTS = () => {
             }
             nftId={2341}
             supplyNft={"0 / 10"}
-            tokenAmount={25000000}
+            tokenAmount={250000}
           />
         </div>
       </div>
