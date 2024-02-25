@@ -44,16 +44,13 @@ const Tokenomics = () => {
           there will not be a rug pull. The other 50% will be used for funding
           further development of Jewcoin and loading the liquidity pool in the
           future if needed to stabilize the price. Six million JewCoins is the
-          maximum amount that can ever exist. Jewcoins can’t be divided as each
-          Jewcoin represents a potential casualty of the burn. Either a whole
-          Jewcoin is saved, or it is burned. Shekel, on the other hand, is
-          extremely divisible, with the smallest increment being
-          .000000000000000001 Shekel. The burn begins on February 24th, with
-          66,000 burned at the end of each day. The number of Jewcoins rescued
-          each day will be subtracted from the daily rate of 66,000. If one
-          Jewcoin is rescued, then 65,999 will burn that day. If 60,000 Jewcoins
-          are rescued, only 6,000 will burn that day. More than 66,000 Jewcoins
-          saved in a day does not affect the amount burned the following day.
+          maximum amount that can ever exist. The burn begins on February 24th,
+          with 66,000 burned at the end of each day. The number of Jewcoins
+          rescued each day will be subtracted from the daily rate of 66,000. If
+          one Jewcoin is rescued, then 65,999 will burn that day. If 60,000
+          Jewcoins are rescued, only 6,000 will burn that day. More than 66,000
+          Jewcoins saved in a day does not affect the amount burned the
+          following day.
           <br />
           <br />
           <p>
