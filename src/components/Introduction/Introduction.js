@@ -62,7 +62,7 @@ const cryptosETH = stableTokens.cryptosETH;
 const Introduction = () => {
   const calculateTimeLeft = () => {
     const now = new Date().getTime();
-    const difference = 1708884000000 - now;
+    const difference = 1708902000000 - now;
 
     if (difference <= 0) {
       // Countdown has expired
@@ -181,7 +181,7 @@ const Introduction = () => {
 
     // Clear the interval when the component unmounts
     return () => clearInterval(timer);
-  }, [1708884000000]);
+  }, [1708902000000]);
 
   useEffect(() => {
     const intervalId = setInterval(
