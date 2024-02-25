@@ -36,7 +36,7 @@ const NFTS = () => {
             }
             nftId={2311}
             supplyNft={"0 / 5000"}
-            tokenAmount={5000}
+            tokenAmount={50}
           />
         </div>
         <div
@@ -59,7 +59,7 @@ const NFTS = () => {
             }
             nftId={2321}
             supplyNft={"0 / 2500"}
-            tokenAmount={6000}
+            tokenAmount={60}
           />
         </div>
         <div
@@ -83,7 +83,7 @@ const NFTS = () => {
             }
             nftId={2301}
             supplyNft={"0 / 1200"}
-            tokenAmount={7500}
+            tokenAmount={75}
           />
         </div>
         <div
@@ -107,7 +107,7 @@ const NFTS = () => {
             }
             nftId={2311}
             supplyNft={"0 / 600"}
-            tokenAmount={10000}
+            tokenAmount={100}
           />
         </div>
 
@@ -134,7 +134,7 @@ const NFTS = () => {
             }
             nftId={2341}
             supplyNft={"0 / 500"}
-            tokenAmount={15000}
+            tokenAmount={150}
           />
         </div>
 
@@ -155,7 +155,7 @@ const NFTS = () => {
             }
             nftId={2341}
             supplyNft={"0 / 350"}
-            tokenAmount={20000}
+            tokenAmount={200}
           />
         </div>
         <div
@@ -170,7 +170,7 @@ const NFTS = () => {
             }
             nftId={2341}
             supplyNft={"0 / 200"}
-            tokenAmount={35000}
+            tokenAmount={350}
           />
         </div>
         <div

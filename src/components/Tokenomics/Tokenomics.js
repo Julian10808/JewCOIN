@@ -57,29 +57,15 @@ const Tokenomics = () => {
           The price of Jewcoin will increase as more Jewcoins are rescued, with
           increases coming for every 1 million saved. Jewcoin starting price:
           .15 USDC, .15 USDT or corresponding amount in ETH.
+          <br />
+          <br />
           <p>
-            <br />
-            Jewcoin starting price: .15 USDC, .15 USDT or corresponding amount
-            in ETH.
-            <br />
-            <br />
-            Jewcoin price after 1 million tokens rescued: .2 USDC, .2 USDT, or
-            the corresponding amount in ETH.
-            <br />
-            <br />
-            Jewcoin price after 2 million tokens rescued: .25 USDC, .25 USDT, or
-            the corresponding amount in ETH.
-            <br />
-            <br />
-            Jewcoin price after 3 million tokens rescued: .3 USDC, .3 USDT, or
-            the corresponding amount in ETH.
-            <br />
-            <br /> Jewcoin price after 4 million tokens rescued: .35 USDC, .35
-            USDT, or the corresponding amount in ETH.
-            <br />
-            <br />
-            Jewcoin price after 5 million tokens rescued: .4 USDC, .4 USDT, or
-            the corresponding amount in ETH.
+            Jewcoins starting price is .15 usd. After 1 million Jewcoins are
+            saved from Auchwallet, we will open up a liquidity pool using the
+            Eth and stable coins acquired. From this point onwards, the price of
+            Jewcoin will be determined by incoming purchases and sales. We will
+            keep the Jewcoin price in Auchwallet 1% less than the price in the
+            LP to incentivize purchases of Jewcoin from Auchwallet over the LP.
           </p>
           <br />
           After three months, all Jewcoins will have been rescued or burned.

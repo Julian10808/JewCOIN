@@ -30,6 +30,10 @@ const Roadmap = () => {
             </div>
             <ul className="list-outside list-disc pl-[20px] text-black mt-[32px] text-[12px] md:text-[16px] leading-[24px] font-bold">
               <li>Jewcoin is launched.</li>
+              <li>
+                Once 1 million tokens are saved, we will open up a ETH/JEWS
+                Lliquidity pool with the eth and stables raised.
+              </li>
               <li>The burning begins. Buy them while you can.</li>
               <li>Staking begins, and NFTs start being minted.</li>
             </ul>
