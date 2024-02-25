@@ -28,29 +28,13 @@ const Tokenomics = () => {
         <SvgStakingRightArrow />
         <div className="text-[12px] sm:text-[18px] text-white font-semibold mt-[30px]">
           {/* <div className="text-[#FFE300] font-sefer text-[23px]"></div> */}
-          After three months, all Jewcoins will have been rescued or burned.
-          Once this happens, the Jewcoin Liquidity Pool will open up, and
-          Jewcoin rescuers can sell their Jewcoin to those who didn’t get a
-          chance to acquire tokens during the burn. Anyone who has saved
-          Jewcoins from Auchwallet can immediately open their own liquidity
-          pool, but we won't open one until the burn is finished. We encourage
-          everyone to buy Jewcoin directly from Auchwallet and not from another
-          user (while the burn is still ongoing), as those Jewcoins have already
-          been rescued. Once the LP is live, the Jewcoin price will fluctuate in
-          real time based on the amount being sold and incoming demand for
-          Jewcoins. 50% of all Ethereum acquired from the Jewcoin token burn
-          sale will be saved and deposited into the Liquidity pool to prevent
-          the Jewcoin price from tanking and show the Jewcoin community that
-          there will not be a rug pull. The other 50% will be used for funding
-          further development of Jewcoin and loading the liquidity pool in the
-          future if needed to stabilize the price. Six million JewCoins is the
-          maximum amount that can ever exist. The burn begins on February 24th,
-          with 66,000 burned at the end of each day. The number of Jewcoins
-          rescued each day will be subtracted from the daily rate of 66,000. If
-          one Jewcoin is rescued, then 65,999 will burn that day. If 60,000
-          Jewcoins are rescued, only 6,000 will burn that day. More than 66,000
-          Jewcoins saved in a day does not affect the amount burned the
-          following day.
+          Six million JewCoins is the maximum amount that can ever exist. The
+          burn begins on February 24th, with 66,000 burned at the end of each
+          day. The number of Jewcoins rescued each day will be subtracted from
+          the daily rate of 66,000. If one Jewcoin is rescued, then 65,999 will
+          burn that day. If 60,000 Jewcoins are rescued, only 6,000 will burn
+          that day. More than 66,000 Jewcoins saved in a day does not affect the
+          amount burned the following day.
           <br />
           <br />
           <p>
