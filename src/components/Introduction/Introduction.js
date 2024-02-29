@@ -210,7 +210,7 @@ const Introduction = () => {
     <div className={s.root} id="intro_panel">
       <div className={s.leftWrapper}>
         <div className="text-[16px] sm:text-[20px] text-white font-bold">
-          JEWCOIN TOKEN BURN COUNTDOWN
+          JEWCOIN TOKEN LAUNCH COUNTDOWN
         </div>
         <div className="text-[30px] md:text-[50px] text-[#FFE300] font-bold">
           {timeLeft.days} days : {timeLeft.hours} hrs: {timeLeft.minutes} mins :{" "}
